@@ -20,10 +20,4 @@ exports.handler = (event, context, callback) => {
 
   // Return to Amazon Cognito
   
-  // TODO implement
-  // const response = {
-  //     statusCode: 200,
-  //     body: JSON.stringify('Hello from Lambda!'),
-  // };
-  // return response;
 };
