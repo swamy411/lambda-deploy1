@@ -53,7 +53,6 @@ function getParameterFromSystemManager() {
     return new Promise((resolve, reject) => {
         var params = {
             Path: envPath,
-            /* required */
             WithDecryption: false,
             Recursive: true
         };
