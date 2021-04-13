@@ -7,7 +7,7 @@ exports.handler = (event, context, callback) => {
           callback(Error('errorregistration'));
       }
   }
-  
+  //callback
   callback(null, event);
   
 };
